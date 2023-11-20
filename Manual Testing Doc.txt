@@ -1,0 +1,27 @@
+Bug Testing Plan:
+Test all buttons
+Make sure the Draw button pulls up 5 robots
+Make sure it lets you pick two robots
+Make sure it shows you your robots and the computers
+Make sure the winner is calculate correctly
+See if reloading the page resets your wins and losses
+Try choosing every robot to make sure they all work
+Try choosing more than 2 robots
+Try removing a robot
+Try loosing 3 times
+Try winning 3 times
+
+Test Case:
+Title: See All Bots Button
+Test Steps: Click See All Bots Button
+Expected Result: Display all robots the player and computer can choose.
+Actual Result: Does not display any robots.
+Console Reference Error: botsArr is not defined
+Pass/Fail: Fail
+
+Bug Report:
+Title: See All Bots Button
+Reproduce Bug Steps: Click See All Bots Button
+Expected Result: Display all robots the player and computer can choose.
+Actual Result: Nothing displayed
+Test Data: botsArr is not defined
